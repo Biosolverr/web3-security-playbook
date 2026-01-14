@@ -17,6 +17,3 @@ contract VulnerableBank {
         balance[msg.sender] -= amount; // <- too late (vulnerable)
     }
 }
-
-1. Commit changes
-2. Message: feat: add vulnerable reentrancy example
